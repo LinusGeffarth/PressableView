@@ -1,9 +1,9 @@
 # PressableView
 
-[![CI Status](https://img.shields.io/travis/linusgeffarth/PressableView.svg?style=flat)](https://travis-ci.org/linusgeffarth/PressableView)
-[![Version](https://img.shields.io/cocoapods/v/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
-[![License](https://img.shields.io/cocoapods/l/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
 [![Platform](https://img.shields.io/cocoapods/p/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
+[![Version](https://img.shields.io/cocoapods/v/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
+[![CI Status](https://img.shields.io/travis/linusgeffarth/PressableView.svg?style=flat)](https://travis-ci.org/linusgeffarth/PressableView)
+[![License](https://img.shields.io/cocoapods/l/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
 
 Table of Contents:
 1. [Requirements](#requirements)
