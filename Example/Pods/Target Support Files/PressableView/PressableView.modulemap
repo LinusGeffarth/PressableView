@@ -1,0 +1,6 @@
+framework module PressableView {
+  umbrella header "PressableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

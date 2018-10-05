@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PressableView_Example' do
+  pod 'PressableView', :path => '../'
+
+  target 'PressableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

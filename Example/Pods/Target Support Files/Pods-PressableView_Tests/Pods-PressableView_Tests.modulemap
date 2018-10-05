@@ -1,0 +1,6 @@
+framework module Pods_PressableView_Tests {
+  umbrella header "Pods-PressableView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PressableView (0.1.0)
+
+DEPENDENCIES:
+  - PressableView (from `../`)
+
+EXTERNAL SOURCES:
+  PressableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PressableView: 5baa23ef0cf45236db39cbc1cc1ac131f2a2341d
+
+PODFILE CHECKSUM: add63db69ff83174eedb1105e65b13066b61a5e0
+
+COCOAPODS: 1.5.3
