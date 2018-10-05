@@ -1,15 +1,25 @@
 # PressableView
 
-[![CI Status](https://img.shields.io/travis/Linus Geffarth/PressableView.svg?style=flat)](https://travis-ci.org/Linus Geffarth/PressableView)
+[![CI Status](https://img.shields.io/travis/linusgeffarth/PressableView.svg?style=flat)](https://travis-ci.org/linusgeffarth/PressableView)
 [![Version](https://img.shields.io/cocoapods/v/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
 [![License](https://img.shields.io/cocoapods/l/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
 [![Platform](https://img.shields.io/cocoapods/p/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
+
+Table of Contents:
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Credits](#credits)
+4. [License](#license)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+- iOS 11.0
+- Swift 4.0
+- Xcode 9
 
 ## Installation
 
@@ -20,9 +30,9 @@ it, simply add the following line to your Podfile:
 pod 'PressableView'
 ```
 
-## Author
+## Credits
 
-Linus Geffarth, linus@geffarth.de
+Linus Geffarth, linus@geffarth.com
 
 ## License
 
