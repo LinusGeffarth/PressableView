@@ -5,7 +5,7 @@
 [![CI Status](https://img.shields.io/travis/linusgeffarth/PressableView.svg?style=flat)](https://travis-ci.org/linusgeffarth/PressableView)
 [![License](https://img.shields.io/cocoapods/l/PressableView.svg?style=flat)](https://cocoapods.org/pods/PressableView)
 
-Table of Contents:
+## Table of Contents:
 1. [Requirements](#requirements)
 2. [Installation](#installation)
 3. [Credits](#credits)
