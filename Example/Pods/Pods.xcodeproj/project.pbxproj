@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		16ABD02FCD90A318413C17A02033678A /* Pods-PressableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E77B17163F2AEE17B4AB9E802E995EF /* Pods-PressableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3811912F066910F232105FF79434B828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		4AAF7F9D7E28845AE2CE67AAD4B6F7E3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379D9F0CB6CEA03215F817A84EC7D0F /* ReplaceMe.swift */; };
 		75FC8FD48E82C151D83AE3C6742684CA /* PressableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C84AFF3D1E1C6E2BED7006DE32B4031F /* PressableView-dummy.m */; };
+		888829F3216749E8000FE8E4 /* PressableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888829EF216748ED000FE8E4 /* PressableView.swift */; };
+		888829F4216749EB000FE8E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888829F12167490B000FE8E4 /* Extensions.swift */; };
 		921D47D68229B044A6171931CC700334 /* Pods-PressableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 649835469B72064F14329BC3913EB121 /* Pods-PressableView_Tests-dummy.m */; };
 		A4F866A416F48A43FCC3B12E161C29C5 /* Pods-PressableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB81760FF999ACAAD0E3B0329E86FD6 /* Pods-PressableView_Example-dummy.m */; };
 		B489F2504B63B7886F14C70C589A3DF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -55,6 +56,8 @@
 		702837333639054A63DE461F66589C3F /* Pods-PressableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PressableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E77B17163F2AEE17B4AB9E802E995EF /* Pods-PressableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PressableView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		843C30191C42E2A8802BE6EA4E5C1C47 /* PressableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PressableView-umbrella.h"; sourceTree = "<group>"; };
+		888829EF216748ED000FE8E4 /* PressableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PressableView.swift; path = PressableView/Classes/PressableView.swift; sourceTree = "<group>"; };
+		888829F12167490B000FE8E4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = PressableView/Classes/Extensions.swift; sourceTree = "<group>"; };
 		8F6EBD1246AB9DE1965B791BF8FADD6E /* PressableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PressableView-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9846AB219DBB8EC885C79F6AD6CF2BFC /* Pods-PressableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PressableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +70,6 @@
 		C84AFF3D1E1C6E2BED7006DE32B4031F /* PressableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PressableView-dummy.m"; sourceTree = "<group>"; };
 		CAB4B35F5E37F4C1B6F60E207878C9CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC1EEB1D4B33FB513340DAB52C2F1319 /* Pods-PressableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PressableView_Example-umbrella.h"; sourceTree = "<group>"; };
-		D379D9F0CB6CEA03215F817A84EC7D0F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PressableView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F623D5CF8F7552F20D2DBBD3C0F9066C /* Pods-PressableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PressableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FC17F5E82DF75B9F43A0B47A2213F92D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD0B7C4DA1F4ABBC5B9A0BDB8EEDDFF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,9 +135,10 @@
 		494F72BB4111C7FB0C1C70E981A89609 /* PressableView */ = {
 			isa = PBXGroup;
 			children = (
-				D379D9F0CB6CEA03215F817A84EC7D0F /* ReplaceMe.swift */,
 				41C16C7467DF62722A0CF5B85F0E1C5E /* Pod */,
 				C3FB9B234D718288CD454EF7F12C9C04 /* Support Files */,
+				888829EF216748ED000FE8E4 /* PressableView.swift */,
+				888829F12167490B000FE8E4 /* Extensions.swift */,
 			);
 			name = PressableView;
 			path = ../..;
@@ -318,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					C7736F434E723161D7725C469D8B7E0D = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,8 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888829F3216749E8000FE8E4 /* PressableView.swift in Sources */,
+				888829F4216749EB000FE8E4 /* Extensions.swift in Sources */,
 				75FC8FD48E82C151D83AE3C6742684CA /* PressableView-dummy.m in Sources */,
-				4AAF7F9D7E28845AE2CE67AAD4B6F7E3 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +396,7 @@
 			baseConfigurationReference = 9846AB219DBB8EC885C79F6AD6CF2BFC /* Pods-PressableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -398,7 +408,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PressableView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PressableView_Example/Pods-PressableView_Example.modulemap";
@@ -411,6 +421,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -422,6 +433,7 @@
 			baseConfigurationReference = 6C289AC0A0C56CB8692FE91103AD3C4E /* Pods-PressableView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -433,7 +445,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PressableView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PressableView_Example/Pods-PressableView_Example.modulemap";
@@ -445,6 +457,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -535,7 +548,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PressableView/PressableView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PressableView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PressableView/PressableView.modulemap";
 				PRODUCT_MODULE_NAME = PressableView;
@@ -631,7 +644,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PressableView/PressableView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PressableView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PressableView/PressableView.modulemap";
 				PRODUCT_MODULE_NAME = PressableView;
