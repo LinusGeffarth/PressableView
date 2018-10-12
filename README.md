@@ -8,8 +8,9 @@
 ## Table of Contents:
 1. [Requirements](#requirements)
 2. [Installation](#installation)
-3. [Credits](#credits)
-4. [License](#license)
+3. [Usage](#usage)
+4. [Credits](#credits)
+5. [License](#license)
 
 ## Example
 
@@ -29,6 +30,12 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'PressableView'
 ```
+
+## Usage
+
+To use a `PressableView`, simply drag a regular `UIView` into your view inside the storyboard. Then assign the class `PressableView` to it:
+
+
 
 ## Credits
 
