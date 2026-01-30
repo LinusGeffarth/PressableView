@@ -79,7 +79,7 @@ If you find any bugs, or want to propose enhancements, please make sure to open 
 
 ## Credits
 
-Linus Geffarth, linus@geffarth.com
+Linus Geffarth
 
 ## License
 
